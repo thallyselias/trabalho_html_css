@@ -1,0 +1,134 @@
+@charset 'UTF-8';
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(243, 233, 191, 0.82);
+}
+hr{
+  margin: 0px;
+}
+.container1{
+  background-color: #c70a0afa;
+}
+.container1 img{
+  margin: 30px;
+}
+.container1 h1{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
+.container1 p{
+  color: #d3d1d1;
+  font-weight: 300;
+  text-align: center;
+}
+.container1 form input{
+  margin-right: 4px;
+  padding: 5px;
+  border-radius: 5px ;
+}
+.container1 .botao{
+  background-color: rgb(207, 206, 204);
+}
+.container1 ul{
+  display: flex;
+  padding: 20px 0px;
+}
+.container1 ul li{
+  margin-right: 40px;
+  margin-left: 10px;
+  list-style: none;
+  background-color: rgba(255, 115, 0, 0.635);
+  padding: 7px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+:hover.nav {
+  background-color: rgba(244, 232, 5, 0.849);
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.container2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container2 img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.container text-center{
+  text-align: center;
+}
+.container3{
+  margin:0px 50px;
+}
+.container3 .row{
+  margin: 50px 0px;
+  align-items: center;
+}
+.container3 h3, p{
+  text-align: start;
+}
+.container4 .row{
+  margin: 50px 0px;
+  align-items: center;
+}
+.container4 h3, p{
+  text-align: start;
+}
+.container5{
+  margin: 50px 0px;
+}
+.container5 p{
+  text-align: center;
+}
+.container5 ul{
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.container5 ul li{
+  margin-right: 70px;
+  justify-content: center;
+}
+.container5 li img{
+  width: 30px;
+}
+.rede-social{
+  text-align: center;
+}
+.container6{
+  margin: 50px 0px;
+}
+.container6 h4{
+  margin-bottom: 40px;
+}
+.container6 input{
+  padding: 10px;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+footer{
+  background-color: brown;
+  height: 40px;
+  text-align: end;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-weight: 400;
+  color: white;
+}
+footer img{
+  width: 20px;
+  margin-right: 30px;
+}
